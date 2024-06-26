@@ -1,0 +1,50 @@
+*{
+	margin:0;
+	box-sizing:border-box;
+}
+.container{
+	margin:0 auto;
+	max-width:1140px;
+}
+.main-card{
+	position:relative;
+}
+h1::after{
+	display:inline-block;
+	position:absolute;
+	content:"";
+	width:3%;
+	height:4px;
+	background-color:gray;
+	top:75px;
+	left:48%;
+	bottom:0;
+	
+}
+
+h1::before{
+	position:absolute;
+	content:"";
+	width:3%;
+	height:4px;
+	background-color:#cb001e;
+	bottom:0;
+	line-height:50%;
+	margin:1.5px;
+	top:74px;
+	left:50.9%;
+}
+
+.main-card{
+	margin:10px;
+}
+
+h1{
+	padding:10px;
+	color:#cb001e;
+}
+
+h3{
+	color:gray;
+	padding:0 0 10px ;
+}

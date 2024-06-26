@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Nova Square';
+    src: url('../font/NovaSquare.woff2') format('woff2'),
+        url('../font/NovaSquare.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

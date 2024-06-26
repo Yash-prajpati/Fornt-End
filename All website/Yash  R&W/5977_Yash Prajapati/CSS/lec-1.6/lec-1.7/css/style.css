@@ -1,0 +1,15 @@
+*{
+	margin:0;
+	box-sizing:border-box;
+}
+
+.container{
+	max-width:1140px;
+	margin:0 auto;
+}
+.mianbox{
+	width:40%;
+	height:200px;
+	margin:100% auto;
+	background-color:lightblue;
+}

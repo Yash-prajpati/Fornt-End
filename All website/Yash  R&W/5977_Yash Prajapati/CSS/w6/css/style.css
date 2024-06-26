@@ -1,0 +1,44 @@
+*{
+	margin:0;
+	box-sizing:border-box;
+}
+.container{
+	margin:0 auto;
+	max-width:1140px;
+}
+body{
+}
+.main-card{
+	position:relative;
+}
+h1::after{
+	display:inline-block;
+	position:absolute;
+	content:"";
+	width:20%;
+	height:1px;
+	background-color:white;
+	left:40%;
+	bottom:0;
+	
+}
+
+h1::before{
+	position:absolute;
+	content:"";
+	width:20%;
+	height:1px;
+	background-color:white;
+	line-height:50%;
+	margin:1.5px;
+	left:40%;
+}
+
+.main-card{
+	margin:10px;
+}
+
+h1{
+	padding:10px;
+	color:white;
+}

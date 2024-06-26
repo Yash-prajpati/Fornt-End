@@ -1,0 +1,251 @@
+*{
+	margin:0;
+	box-sizing:border-box;
+}
+
+.container{
+	max-width:1140px;
+	margin:0 auto;
+}
+
+/* box-1 */
+.mianbox{
+	width:100%;
+	height:300px;
+	background-color:Salmon;
+	display:inline-block;
+	margin:50px;
+	padding:30px auto;
+	border:5px groove IndianRed;
+
+
+}
+.box{
+	width:40%;
+	margin:55px ;
+	display:inline-block;
+	border-radius:20px;
+	border:5px ridge 	IndianRed;
+	color:#7c1034;
+	padding:10px;
+}
+.box h1{
+	text-align:center;
+}
+.box1{
+	width:40%;
+	margin:55px ;
+	display:inline-block;
+	border-radius:20px;
+	border:5px groove	IndianRed;
+  	color:#7c1034;
+	padding:10px;
+}
+.box1 h1{
+	text-align:center;
+}
+
+
+/* box-2 */
+.mianbox1{
+	width:100%;
+	background-color:lightblue;
+	display:inline-block;
+	margin:45px ;
+	border:5px groove lightblue;
+   background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,60,253,1) 100%);
+}
+.box2{
+	width:40%;
+
+	margin:55px ;
+	display:inline-block;
+	border:5px ridge 	lightblue;
+	border-radius:20px;
+	padding:10px;
+	color:white;
+}
+.box2 h1{
+	text-align:center;
+}
+.box3{
+	width:40%;
+	margin:55px ;
+	display:inline-block;
+	border:5px groove lightblue;
+	border-radius:20px;
+	padding:10px;
+	color:white;
+}
+.box3 h1{
+	text-align:center;
+}
+
+/* box-3 */
+.mianbox2{
+	width:100%;
+	background-color:lightblue;
+	display:inline-block;
+	margin:45px ;
+	background-image:url('../img/sky.jpg');
+	border:5px ridge #34c194;
+    background-position:center;	
+	background-size:cover;
+	background-blend-mode:darken;
+	background-color:rgba(0,0,0,0.4);
+	}
+.box4{
+	width:40%;
+   	border:5px ridge #34c194;
+	margin:55px ;
+	display:inline-block;
+	padding:10px;
+	color:	SpringGreen;
+	border-radius:20px;
+
+}
+.box4 h1{
+	text-align:center;
+}
+.box5{
+	width:40%;
+
+	border:5px groove #34c194;
+	margin:55px ;
+	display:inline-block;
+	padding:10px;
+	color:	SpringGreen;
+	border-radius:20px;
+
+}
+.box5 h1{
+	text-align:center;
+}
+
+
+/* box-4 */
+.mianbox3{
+	width:100%;
+	background-color:lightblue;
+	display:inline-block;
+	margin:45px ;
+	background-image:url('../img/sky1.jpg');
+	background-size:cover;
+	background-position:center;
+	background-blend-mode:darken;
+	background-color:rgba(0,0,0,0.4);
+    border:5px groove #a93c4f;	
+
+}
+.box6{
+	width:40%;
+	margin:55px ;
+	display:inline-block;
+	padding:10px auto;
+	border:5px groove #a93c4f;
+	color:	LightPink;
+	padding:40px;
+	border-radius:20px;
+}
+.box6 h1{
+	text-align:center;
+}
+.box7{
+	width:40%;
+	border:5px groove #a93c4f;
+	margin:55px ;
+	display:inline-block;
+	padding:10px auto;
+	color:LightPink;
+	padding:40px;
+	border-radius:20px;
+}
+.box7 h1{
+	text-align:center;
+}
+
+
+/* box-5 */
+.mianbox4{
+	width:100%;
+	background-color:lightblue;
+	display:inline-block;
+	margin:45px ;
+	background-image:url('../img/sea.jpg');
+	background-size:contain;
+	background-repeat:repeat;
+	background-position:bottom;
+	border:5px groove #ffdd99;
+	background-blend-mode:darken;
+	background-color:rgba(0,0,0,0.2);
+
+}
+.box8{
+	width:40%;
+	border:5px groove #ffdd99;
+	margin:55px ;
+	display:inline-block;
+	padding:10px auto;
+	border-radius:20px;
+	padding:40px;
+    color:LightGoldenrodYellow;
+}
+.box8 h1{
+	text-align:center;
+}
+.box9{
+	width:40%;
+	border:5px groove #ffdd99;
+	margin:55px ;
+	display:inline-block;
+	padding:10px auto;
+	border-radius:20px;
+	padding:40px;
+    color:LightGoldenrodYellow;
+}
+.box9 h1{
+	text-align:center;
+}
+
+/* box-6 */
+.mianbox5{
+	width:100%;
+	background-color:lightblue;
+	display:inline-block;
+	margin:45px ;
+	background-image:url('../img/city.jpg');
+	background-size:contain;
+	background-repeat:repeat;
+	background-position:bottom;
+	border:5px groove white;
+	background-blend-mode:darken;
+	background-color:rgba(0,0,0,0.2);
+}
+.box10{
+	width:40%;
+	border:5px groove white;
+	margin:55px ;
+	display:inline-block;
+	padding:10px auto;
+	color:lightblack;
+	border-radius:20px;
+	padding:40px;
+}
+.box10 h1{
+	text-align:center;
+}
+.box11{
+	width:40%;
+	border:5px groove white;
+	margin:55px ;
+	display:inline-block;
+	padding:10px auto;
+	color:lightblack;
+	border-radius:20px;
+	padding:40px;
+}
+.box11 h1{
+	text-align:center;
+}
+
+

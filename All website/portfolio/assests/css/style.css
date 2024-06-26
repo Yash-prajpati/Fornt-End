@@ -1,0 +1,107 @@
+body{
+    font-family: Space Grotesk;
+    color: white;
+    background-color: black;
+}
+.ul,li{
+    list-style: none;
+}
+.navbar ul li{
+    color: white;
+}
+
+.main-pic{
+    background: linear-gradient(180deg, #262626 0%, rgba(38, 38, 38, 0.1) 100%);
+}
+.resume{
+    background: linear-gradient(90deg, #262626 0%, rgba(38, 38, 38, 0.1) 100%);
+}
+.intro{
+    background: linear-gradient(90deg, #262626 0%, rgba(38, 38, 38, 0.1) 100%);
+}
+a{
+    text-decoration: none;
+}
+.main a{
+    position: relative;
+}
+.navbar ul li a{
+    transition: 0.5s;
+}
+.navbar ul li a:hover{
+    color:rgb(220 53 69)!important;
+}
+
+.border-b{
+    border-bottom: 0.5px solid #262626;
+}
+.border-a{
+    border: 0.5px solid #262626;
+}
+.main-pic .social i{
+    font-size: 25px;
+}
+.box{
+    position: relative;
+}
+a{
+    color:white;
+}
+.car a :hover{
+    color: rgb(249, 88, 104)!important;
+}
+.border-f{
+    border: 0.5px solid #616060;
+}
+.edu{
+    background: linear-gradient(180deg, #262626 0%, rgba(38, 38, 38, 0.1) 100%);
+}
+
+
+
+
+body {
+    transition: 1.5s;
+    }
+    .night-toggle {
+    width: 33px;
+    height: 33px;
+    right: 20px;
+    top: 20px;
+    position: absolute;
+    }
+    .night-toggle:hover{
+      cursor: pointer;
+    }
+    .moon {
+      background-color: transparent;
+      box-shadow: -6px 1px 0 3px #275e8e;
+      border-left:3px solid #27476D;
+      border-radius:50%;
+      width: 20px;
+      height: 20px;
+      margin-left:8px;
+      margin-top:0px;
+      transition: 2s;
+    }
+    .sun {
+      background-color: #fdd462;
+      box-shadow: 2px 0px 0px 1px #D19C29;
+      border-radius:50%;
+      width: 26px;
+      height: 26px;
+      transition: 2s;
+    }
+    
+    @media (max-width: 576px) {
+    .d-sm-none {
+        display: none !important;
+    }
+    }
+
+
+    @media (max-width: 768px){
+.d-md-none {
+    display: none !important;
+}
+    }

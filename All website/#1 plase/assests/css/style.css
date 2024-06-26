@@ -1,0 +1,304 @@
+
+
+.gotham{
+    font-family:  Gotham;
+}
+.book{
+    font-family: Gotham Book;
+}
+.t-color{
+    color: #071338;
+}
+
+ul,li,ol{
+    list-style: none;
+}
+.palce a{
+    text-decoration: none;
+}  
+
+.kd .kd-content a{
+    text-decoration: underline;
+    color: black;
+}
+
+.compnay h2{
+    text-align:center;
+    padding: 20px;
+  }
+
+
+  .kd .kd-content .meet a{
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    transition: 1s;
+  }
+
+  .kd .kd-content .meet :hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
+  }
+
+  .navbar .collapse ul li a{
+    text-decoration: none;
+  }
+
+  .cartoon .bot{
+    position: relative;
+  }
+
+  .cartoon .bot{
+ 
+       transform: translateY(-50%);
+      position: absolute;
+      right: 73%;
+    
+  }
+
+  .cartoon .boot{
+    position: relative;
+  }
+  .cartoon .boot{
+ 
+    transform: translateY(-50%);
+   position: absolute;
+   right: 47%;
+ 
+}
+
+.cartoon .booot{
+  position: relative;
+}
+.cartoon .booot{
+
+  transform: translateY(-50%);
+ position: absolute;
+ right: 21%;
+
+}
+
+
+  .cartoon .bot a{
+    text-decoration: none;
+  }
+
+  .cartoon .boot a{
+    text-decoration: none;
+  }
+  
+  .cartoon .booot a{
+    text-decoration: none;
+  }
+
+
+
+  .footer ul li{
+      transition: 0.5s ;
+  }
+.footer ul :hover{
+ color: white;
+}
+
+
+
+
+  /* Slider */
+  
+  .slick-slide {
+      margin: 0px 20px;
+  }
+  
+  .slick-slide img {
+      width: 100%;
+  }
+  
+  .slick-slider
+  {
+      position: relative;
+      display: block;
+      box-sizing: border-box;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+              user-select: none;
+      -webkit-touch-callout: none;
+      -khtml-user-select: none;
+      -ms-touch-action: pan-y;
+          touch-action: pan-y;
+      -webkit-tap-highlight-color: transparent;
+  }
+  
+  .slick-list
+  {
+      position: relative;
+      display: block;
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+  }
+  .slick-list:focus
+  {
+      outline: none;
+  }
+  .slick-list.dragging
+  {
+      cursor: pointer;
+      cursor: hand;
+  }
+  
+  .slick-slider .slick-track,
+  .slick-slider .slick-list
+  {
+      -webkit-transform: translate3d(0, 0, 0);
+         -moz-transform: translate3d(0, 0, 0);
+          -ms-transform: translate3d(0, 0, 0);
+           -o-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+  }
+  
+  .slick-track
+  {
+      position: relative;
+      top: 0;
+      left: 0;
+      display: block;
+  }
+  .slick-track:before,
+  .slick-track:after
+  {
+      display: table;
+      content: '';
+  }
+  .slick-track:after
+  {
+      clear: both;
+  }
+  .slick-loading .slick-track
+  {
+      visibility: hidden;
+  }
+  
+  .slick-slide
+  {
+      display: none;
+      float: left;
+      height: 100%;
+      min-height: 1px;
+  }
+  [dir='rtl'] .slick-slide
+  {
+      float: right;
+  }
+  .slick-slide img
+  {
+      display: block;
+  }
+  .slick-slide.slick-loading img
+  {
+      display: none;
+  }
+  .slick-slide.dragging img
+  {
+      pointer-events: none;
+  }
+  .slick-initialized .slick-slide
+  {
+      display: block;
+  }
+  .slick-loading .slick-slide
+  {
+      visibility: hidden;
+  }
+  .slick-vertical .slick-slide
+  {
+      display: block;
+      height: auto;
+      border: 1px solid transparent;
+  }
+  .slick-arrow.slick-hidden {
+      display: none;
+  }
+  a{
+    text-decoration: none;
+  }
+
+  .compnay h2 a{
+    text-decoration: underline;
+  }
+  .compnay .customer-logos img{
+    background-blend-mode: darken;
+  }
+
+  .kd .kd-content .meet a{
+    text-decoration: none;
+  }
+
+  .s-1{
+    width: 45px !important;
+  }
+
+  
+
+
+
+  .cta {
+  position: relative;
+  margin: auto;
+  padding: 12px 18px;
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 50px;
+  background: rgb(181, 147, 248);
+  width: 45px;
+  height: 45px;
+  transition: all 0.3s ease;
+}
+
+.cta span {
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #234567;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+
+.cta:hover:before {
+  width: 100%;
+  background: rgb(181, 147, 248);
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active {
+  transform: scale(0.95);
+}
+
+
+
+

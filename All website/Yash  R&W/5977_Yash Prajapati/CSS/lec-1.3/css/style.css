@@ -1,0 +1,11 @@
+h1{
+	color:blue;
+	   font-family: 'Roboto Mono';
+	   text-align:center;
+	   text-decoration:underline;
+}
+p{
+	color:blue;
+	text-align:justify;
+		   font-family: 'Roboto Mono';
+}

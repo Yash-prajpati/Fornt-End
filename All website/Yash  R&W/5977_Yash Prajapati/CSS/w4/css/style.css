@@ -1,0 +1,42 @@
+*{
+	margin:0;
+	box-sizing:border-box;
+}
+.container{
+	margin:0 auto;
+	max-width:1140px;
+}
+.main-card{
+	position:relative;
+}
+h1::after{
+	display:inline-block;
+	position:absolute;
+	content:"";
+	width:5%;
+	height:4px;
+	background-color:black;
+	left:0;
+	bottom:0;
+	
+}
+
+h1::before{
+	position:absolute;
+	content:"";
+	width:15%;
+	height:1px;
+	background-color:gray;
+	bottom:0;
+	line-height:50%;
+	margin:1.5px;
+	left:0;
+}
+
+.main-card{
+	margin:10px;
+}
+
+h1{
+	padding:10px;
+}

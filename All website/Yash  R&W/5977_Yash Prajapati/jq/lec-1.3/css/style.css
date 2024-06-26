@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0px auto;
+    max-width: 1140px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.w-1{
+    width:8.33%;
+}
+.w-2{
+    width:16.66%;
+}
+.w-3{
+    width:25%;
+}
+.w-4{
+    width:33.33%;
+}
+.w-5{
+    width:41.66%;
+}
+.w-6{
+    width:50%;
+}
+.w-7{
+    width:58.33%;
+}
+.w-8{
+    width:66.66%;
+}
+.w-9{
+    width:75%;
+}
+.w-10{
+    width:83.33%;
+}
+.w-11{
+    width:91.66%;
+}
+.w-12{
+    width:100%;
+}
+.w-1, .w-2, .w-3, .w-4, .w-5, .w-6, .w-7, .w-8, .w-9, .w-10, .w-11, .w-12{	
+    padding-left:var(--padding-left);
+    padding-right:var(--padding-right);
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul,li{
+    list-style: none;
+}
+
+.align-center{
+    align-items:center;
+}
+.justify-end{
+    justify-content:flex-end;
+}
+button{
+    width: 130px;
+    height: 40px; 
+    margin:15px 9px;
+    border-color: antiquewhite;
+    border-radius: 10px;
+}
+.main{
+    width: 800px;
+    height: 500px;
+    margin: 100px auto;
+ 
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    margin: 10px;
+  
+}
+.edit{
+    background-color: cyan;
+    transition: 0.5s;
+}
+
+
+/* navbar start */
+
+.head{
+    padding: 20px 70px;
+    border-bottom:1px solid gray ;
+}
+.head .logo img{
+    width:100px;
+}
+.head .contact ul{
+    padding: 0 20px;
+}
+.head .contact ul li{
+    padding:0 20px;
+    font-family:  Segoe UI;
+}
+.head .contact ul li:hover {
+    border-bottom:1px solid gray ;
+    color: aquamarine;
+}
+
+
+/* navbar end */

@@ -1,0 +1,48 @@
+*{
+   margin:0;
+   box-sizing:boder-box;
+}
+
+.box-top{
+	width:250px;
+	height:50px;
+	background-color:orange;
+	margin:20px 20px 20px 20px;
+	border-radius:20px 20px 0 0 ;
+}
+
+.main{
+	width:250px;	
+	background-color:white;
+	margin:50px 50px 50px 50px;
+	padding:30px;
+	float:left;
+	text-align:center;
+}
+p{
+	text-align:center;
+	text-decoration:justify;
+}
+
+i{
+	 	width:250px;
+	    text-align:center;
+        color:orange;
+}
+
+h1{
+	    color:orange;
+		text-align:center;
+		padding:10px;
+		text-align:center;
+}
+
+.box-bottom{
+	
+	width:250px;
+	height:50px;
+	background-color:orange;
+	margin:20px 20px 20px 20px;
+	border-radius:0px 0px 20px 20px ;
+	
+}

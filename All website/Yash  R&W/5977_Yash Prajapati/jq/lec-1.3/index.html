@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>header</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    
+
+
+
+    <header class="head">
+        <div class="d-flex align-center">
+            <div class="w-3">
+                <div class="logo d-flex">
+                <img src="img/logo.png">
+            </div>
+            </div>
+            <div class="w-9">
+                <div class="contact d-flex justify-end">
+                    <ul class="d-flex justify-end">
+                        <li>Home </li>
+                        <li>About </li>
+                        <li>Contact Us </li>
+                        <li>Help </li>
+                        <li>Sign Up </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+
+
+
+
+   <button class="b1">Hide</button>
+   <button class="b2">Showe</button>
+   <button class="b3">Fade In</button>
+   <button class="b4">Fade Out</button>
+   <button class="b5">Fade Toggle</button>
+   <button class="b6">Slide Up</button>
+   <button class="b7">Slide Down</button>
+   <button class="b8">Slide Toggle</button>
+   <button class="b9">Add Class</button>
+   <button class="b10">Remove Class</button>
+   <button class="b11">Toggle Class</button>
+
+    <section class="main">
+        <div class="container">
+            <div class="row">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+<script src="js/jquery-3.7.1.min.js"></script>
+<script>
+
+
+$(document).ready(function(){
+
+    $(".b1").click(function(){
+        $(".main").hide(2000);
+    });
+    $(".b2").click(function(){
+        $(".main").show(2000);
+    });
+    $(".b3").click(function(){
+        $(".main").fadeIn(2000);
+    });
+    $(".b4").click(function(){
+        $(".main").fadeOut(2000);
+    });
+    $(".b5").click(function(){
+        $(".main").fadeToggle(2000);
+    });
+    $(".b6").click(function(){
+        $(".main").slideUp(2000);
+    });
+    $(".b7").click(function(){
+        $(".main").slideDown(2000);
+    });
+    $(".b8").click(function(){
+        $(".main").slideToggle(2000);
+    });
+
+    $(".b9").click(function(){
+        $(".box").addClass("edit");
+    });
+    $(".b10").click(function(){
+        $(".box").removeClass("edit");
+    });
+    $(".b11").click(function(){
+        $(".box").toggleClass("edit");
+    });
+
+});
+
+
+</script>
+
+</body>
+</html>

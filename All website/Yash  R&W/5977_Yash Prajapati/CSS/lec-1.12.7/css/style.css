@@ -1,0 +1,47 @@
+*{
+	margin:0;
+	box-sizing:border-box;
+}
+.container{
+	margin:0 auto;
+	max-width:1140px;
+}
+body{
+	background-color:black;
+}
+.main-card{
+	position:relative;
+}
+h1::after{
+	display:inline-block;
+	position:absolute;
+	content:'._._._._._._._._.';
+	width:10%;
+	height:2px;
+	background-color:black;
+	left:3px;
+	right:31px;
+    margin:0 auto;
+	bottom:13px;
+	
+	
+}
+
+h1::before{
+	position:absolute;
+	content:'.-.-.-.-.-.-.-.-.-.-.';
+	background-color:black;
+	line-height:50%;
+	left:0;
+	right:0;
+	top:-10px;
+}
+
+.main-card{
+	margin:400px auto;
+}
+
+h1{
+	padding:10px;
+	color:white;
+}

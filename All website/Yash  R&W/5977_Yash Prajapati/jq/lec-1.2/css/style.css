@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin:0 auto;
+    max-width: 1140;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-box{
+    width: 50%;
+    height: 500px;
+    border: 10px solid black;
+    margin: 100px auto;
+}
+.box{
+    width: 50%;
+    height: 50%;
+    background-color: aquamarine;
+}
+.box1{
+    background-color: blue;
+}
+.box2{
+    background-color: red;
+}
+.box3{
+    background-color: beige;
+}
+.box4{
+    background-color: brown;
+}

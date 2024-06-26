@@ -1,0 +1,104 @@
+*{
+	margin:0;
+	box-sizing:border-box;
+}
+
+.container{
+	max-width:1140px;
+	margin:0 auto;
+}
+
+/* Edu */
+.card{
+	width:35%;
+	background-color:lightblue;
+	margin:100px auto;
+	border:10px lightblue groove;
+	border-radius:10px;
+	color:white;
+	display:inline-block;
+	 font-family: 'Heebo';
+	 padding:10px auto;
+}
+.card  h1{
+	text-decoration:underline;
+}
+
+.card p{
+	text-align:justify;
+}
+.card button{
+	color:lightblue;
+}
+
+
+/* twi */
+.card1{
+	width:35%;
+	background-color:	MistyRose;
+	margin:100px auto;
+	border:10px MistyRose groove;
+	border-radius:10px;
+	color:	Red;
+	display:inline-block;
+	 font-family: 'Kanit';
+	  padding:10px auto;
+}
+
+.card1  h1{
+	text-decoration:underline;
+}
+.card1 p{
+	text-align:justify;
+}
+.card1 button{
+	color:Red;
+}
+
+
+/* game	 */
+.card2{
+	width:35%;
+	background-color:Lavender;
+	margin:100px auto;
+	border:10px Lavender groove;
+	border-radius:10px;
+	color:	MediumPurple;
+	display:inline-block;
+	 font-family: 'Nova Square';
+	  padding:10px auto;
+}
+
+.card2  h1{
+	text-decoration:underline;
+}
+.card2 p{
+	text-align:justify;
+}
+.card2 button{
+	color:MediumPurple;
+}
+
+
+/* spotify */
+.card3{
+	width:35%;
+	background-color:lightgreen;
+	margin:100px auto;
+	border:10px lightgreen groove;
+	border-radius:10px;
+	color:green;
+    display:inline-block;
+	    font-family: 'Hedvig Letters Serif 24pt';
+		 padding:10px auto;
+}
+
+.card3  h1{
+	text-decoration:underline;
+}
+.card3 p{
+	text-align:justify;
+}
+.card3 button{
+	color:green;
+}
